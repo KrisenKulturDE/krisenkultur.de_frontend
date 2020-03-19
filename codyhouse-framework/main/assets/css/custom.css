@@ -9,7 +9,8 @@ body {
 }
 
 .header{
-  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .header__link{
@@ -23,4 +24,8 @@ body {
 .header-logo{
   max-height: 180px;
   padding-right: 40px;
+}
+
+.header__item{
+  margin-left: var(--space-xs);
 }
